@@ -1,19 +1,163 @@
-a{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f5;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+main {
+    max-width: 90vw;
+    min-height: 90vh;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+    color: #ff9900;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    color: #0099ff;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+button {
+    background-color: #0099ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #007acc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a {
     text-decoration: none;
+    color: white;
 }
 
-a:link{
-    color: black;
+/* Página principal */
+.title_principal {
+    color: #ff9900;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
-a:visited{
-    color: black;
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
-a:active{
-    color: black;
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 2rem;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.btnVolverMenu{
-    margin-top: 10rem;
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card_title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #0099ff;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+}
+
+.card_btn {
+    background-color: #0099ff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card_btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.card_btn:hover {
+    background-color: #007acc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card_btn i {
+    margin-left: 5px;
+}
+
+/* Ejericio 1 */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1{
+    margin: 2rem;
+}
+
+.btnVolverMenu {
+    display: inline-block;
+    width: auto;
+    background-color: #ff3300;
+    text-align: center;
+    padding: 6px 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btnVolverMenu:hover {
+    background-color: #d12a00;
 }
