@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://logodownload.org/wp-content/uploads/2022/04/javascript-logo-1.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Ejercicios 2da clase - JavaScript</title>
+</head>
+<body>
+    <main>
+        <div class="header">
+            <h1>Ejercicios 2da clase - JavaScript</h1>
+            <a class="btnVolverMenu" href="../index.html">Menú 🏠</a>
+        </div>
+
+        <section class="filter-section">
+            <button class="filter-button" onclick="filtrarTodas()">Todas</button>
+            <button class="filter-button" onclick="filtrarCombosCaros()">🍔 > $2000</button>
+            <button class="filter-button" onclick="filtrarComboSegunPalabra('papas')">🍔 con 🍟</button>
+            <button class="filter-button" onclick="filtrarComboSegunPalabra('doble')">🍔 dobles</button>
+        </section>
+        <div id="container_hamburguesas" class="card_container"></div>
+    </main>
+    
+    <script type="module" src="./script.js"></script>
+</body>
+</html>

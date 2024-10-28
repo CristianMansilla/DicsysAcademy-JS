@@ -9,8 +9,14 @@ Temas:
     - Comúnes
     - Anónimas
     - Flechas
-<br>
-<br>
+    - Constructoras
+    - Orden superior
+- Clases
+- Objetos
+- Líbrerias
+    - Sweet Alert
+- Eventos
+- Asíncronismo
 <br>
 <br>
 <br>
