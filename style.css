@@ -168,14 +168,16 @@ a {
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 3rem;
 }
 
 .filter-button {
     background-color: #0099ff;
+    width: 9rem;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 1rem;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
